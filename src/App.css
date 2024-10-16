@@ -1,0 +1,108 @@
+  
+  body{
+    background-color: rgb(174, 151, 255);
+  }
+  
+  .cardbg{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .card{
+    min-width: 400px;
+    min-height: 510px;
+    background-color: rgb(254, 255, 241);
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(108, 108, 108);
+    margin-bottom: 40px;
+  }
+  
+  .title{
+    margin:20px;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    color: rgb(66, 66, 66);
+  }
+  
+  .inputadd{
+    text-align: center;
+  }
+  
+  .input{
+    background-color:rgb(254, 255, 241);
+    border-style: solid;
+    border-width: 1px;
+    width:225px;
+    height: 24px;
+    margin-right: 12px;
+    border-radius: 3px;
+    font-family: cursive;
+  }
+  
+  .input:focus{
+    outline: none;
+  }
+  
+  .add{
+    height: 26px;
+    width: 40px;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 450;
+    background-color: rgb(254, 255, 241);
+    color: rgb(66, 66, 66);
+    cursor:pointer;
+    border-radius: 3px;
+    transition: 0.2s;
+    border-style:solid;
+    border-color: rgb(66, 66, 66);
+  }
+  
+  .add:hover{
+    color:white;
+    background-color: rgb(66, 66, 66);
+  }
+  
+  .add:active{
+    color:rgb(66, 66, 66);
+    background-color: aliceblue;
+  }
+  
+  .listitems{
+    margin-top:20px;
+    margin-left:65px;
+    margin-bottom: 20px;
+    text-align: start;
+  }
+  
+  .typeditems{
+    font-family: cursive;
+    display: inline-block;  
+  }
+  
+  .delbtn{
+    margin-right: 10px;
+    margin-left: 10px;
+    width:14px;
+    cursor:pointer;
+    }
+
+    .delbtn:hover{
+        animation: shake-animation 0.3s  infinite;
+    }
+
+    input[type="checkbox"]:checked {
+       accent-color: rgb(137, 104, 255);
+    }
+
+  @keyframes shake-animation {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(20deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-20deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+
+  
