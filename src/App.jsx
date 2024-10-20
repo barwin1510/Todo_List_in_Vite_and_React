@@ -40,6 +40,8 @@ function App() {
     setList(updateCheck)
   }
 
+  const date=new Date();
+
 
   return (
     <>
@@ -54,6 +56,7 @@ function App() {
           </div>
         </div>
       </div>
+      <footer>Copyright &copy; {date.getFullYear()}; Designed by <span>Barwin Raj</span></footer>
     </div>
     </>
   )
