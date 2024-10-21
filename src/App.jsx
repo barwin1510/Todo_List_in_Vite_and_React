@@ -45,13 +45,13 @@ function App() {
 
   return (
     <>
-    <div class="App">
-      <div class="cardbg">
-        <div class="card">
-          <h2 class="title">To-Do List</h2>
-          <div class="inputadd">
-          <input class="input" placeholder=" Type your list" value={name} ref={inputRef} onChange={updateName} onKeyDown={handleKeyDown}></input>
-          <button class="add" onClick={handleClick}>Add</button>
+    <div className="App">
+      <div className="cardbg">
+        <div className="card">
+          <h2 className="title">To-Do List</h2>
+          <div className="inputadd">
+          <input className="input" placeholder=" Type your list" value={name} ref={inputRef} onChange={updateName} onKeyDown={handleKeyDown}></input>
+          <button className="add" onClick={handleClick}>Add</button>
           {list.map((item,index)=><ListItems name={item.name} index={index} del={()=>delbtn(index)} checked={item.checked} handleCheck={()=>{handleCheck(index)}}/>)}
           </div>
         </div>
