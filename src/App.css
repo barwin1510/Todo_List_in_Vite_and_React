@@ -103,6 +103,7 @@
       width:100%;
       text-align: center;
       font-family:  cursive;
+      font-size: 14px;
       color: rgb(66, 66, 66);
       background-color: rgb(254, 255, 241);
       padding: 10px;
@@ -119,6 +120,16 @@
     50% { transform: rotate(0eg); }
     75% { transform: rotate(-20deg); }
     100% { transform: rotate(0deg); }
+  }
+
+  @media screen and (max-width:412px){
+    .card{
+      min-width:305px;
+    }
+
+    footer{
+      font-size: 12px;
+    }
   }
 
 
